@@ -1,0 +1,12 @@
+<header class="mx-auto mt-3">
+    <h1>Danilo Vilhena</h1>
+    <div id="right-side">
+        <nav class="nav">
+            <a class="nav-link active" routerLink="/projects">Projetos</a>
+            <a class="nav-link" routerLink="/tech">Tecnologias</a>
+            <a class="nav-link" routerLink="/contact">Contato</a>
+        </nav>
+        <a *ngIf="language == 'pt'"><img src="assets/images/brazil.svg" alt="Bandeira do Brasil" id="flag-btn" (click)="changeLanguage()"></a>
+        <a *ngIf="language != 'pt'"><img src="assets/images/usa.svg" alt="Bandeira dos EUA" id="flag-btn" (click)="changeLanguage()"></a>
+    </div>
+</header>
