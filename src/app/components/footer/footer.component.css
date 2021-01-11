@@ -8,7 +8,7 @@ footer{
 }
 p{
     margin-bottom: 0;
-    color: var(--primary-color);
+    color: #FFCA3A;
     font-weight: 500;
     font-size: 1.25rem;
 }
@@ -19,5 +19,5 @@ path{
     transition: all 0.25s ease-in-out;
 }
 path:hover{
-    fill: var(--primary-hover);
+    fill: #FFD154;
 }

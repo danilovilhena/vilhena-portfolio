@@ -5,26 +5,27 @@ header{
     margin-top: 1rem;
 }
 h1{
-    color: var(--primary-color);
+    color: #FFCA3A;
     font-weight: 600;
     font-size: 36px;
     letter-spacing: 0.02em;
+    cursor: pointer;
 }
 nav{
     margin-right: 1.5rem;
 }
 a{
-    color: var(--secondary-color);
+    color: #ECECEC;
     font-weight: 400;
     font-size: 1.25rem;
     transition: all 0.25s ease-in-out;
 }
 a:hover{
-    color: var(--primary-color);
+    color: #FFCA3A;
 }
 a.active{
     font-weight: 500;
-    color: var(--primary-color)
+    color: #FFCA3A
 }
 img{
     cursor: pointer;

@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   language = 'pt'
+  isProjects = document.location.pathname.includes('project')
+  isTech = document.location.pathname.includes('tech')
+  isContact = document.location.pathname.includes('contact')
 
   constructor() { }
 
