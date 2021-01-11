@@ -2,6 +2,7 @@ header{
     display: flex;
     justify-content: space-between;
     width: 90%;
+    margin-top: 1rem;
 }
 h1{
     color: var(--primary-color);
@@ -15,7 +16,7 @@ nav{
 a{
     color: var(--secondary-color);
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
     transition: all 0.25s ease-in-out;
 }
 a:hover{
@@ -28,6 +29,7 @@ a.active{
 img{
     cursor: pointer;
     transition: all 0.25s ease-in-out;
+    width: 2.5rem;
 }
 #right-side{
     display: flex;

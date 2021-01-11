@@ -1,0 +1,23 @@
+footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 1rem;
+    margin-top: 5rem;
+}
+p{
+    margin-bottom: 0;
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+svg{
+    width: 1.75rem;
+}
+path{
+    transition: all 0.25s ease-in-out;
+}
+path:hover{
+    fill: var(--primary-hover);
+}
