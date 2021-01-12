@@ -1,0 +1,48 @@
+@media (max-width: 1299.98px) {
+    .section{
+        width: 45%;
+    }
+    #sections{
+        justify-content: space-between;
+    }
+}
+@media (max-width: 1149.98px) {
+    .section a:first-child{
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+    .section #buttons{
+        align-self: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .section a{
+        width: 75%;
+        text-align: center;
+        align-self: center;
+    }
+}
+@media (max-width: 849.98px) {
+    .section{
+        width: 100%;
+    }
+    h2{
+        font-size: 1.75rem;
+    }
+}
+@media (max-width: 767.98px) {
+
+}
+@media (max-width: 575.98px) {
+    
+}
+@media (max-width: 424.98px) {
+    .section a{
+        width: 90%;
+    }
+}
+@media (max-width: 319.98px) {
+    .section a{
+        width: 95%;
+    }
+}

@@ -10,6 +10,7 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    fetch('https://vilhena-blog-backend.herokuapp.com/users/get')
   }
 
 }

@@ -2,6 +2,9 @@
     section > img{
         width: 12rem;
     }
+    h2{
+        font-size: 1.75rem;
+    }
 }
 @media (max-width: 767.98px) {
     section{
