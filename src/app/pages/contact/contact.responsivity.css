@@ -1,0 +1,36 @@
+@media (max-width: 991.98px) {
+    section > img{
+        width: 12rem;
+    }
+}
+@media (max-width: 767.98px) {
+    section{
+        flex-direction: column;
+    }
+    section > img{
+        align-self: center;
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+}
+@media (max-width: 575.98px) {
+    section, section > div{
+        align-items: center;
+    }
+    section h3{
+        text-align: center;
+    }
+    .line{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .line p{
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 424.98px) {
+    .line p{
+        font-size: 1.125rem;
+    }
+}

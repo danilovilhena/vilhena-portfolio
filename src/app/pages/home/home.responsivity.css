@@ -48,7 +48,7 @@
         font-size: 2rem;
     }
     #top-section p{
-        font-size: 1.375rem;
+        font-size: 1.25rem;
     }
     .section{
         width: 75%;
@@ -58,5 +58,8 @@
 @media (max-width: 424.98px) {
     .section{
         width: 90%;
+    }
+    #top-section p{
+        font-size: 1.125rem;
     }
 }

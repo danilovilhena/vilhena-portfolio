@@ -1,6 +1,7 @@
 main{
     width: 90%;
     margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 section{
     display: flex;
@@ -11,7 +12,7 @@ section{
     padding: 1rem 2rem;
 }
 section > img{
-    width: 15%;
+    width: 15rem;
     height: auto;
     margin-right: 2rem;
     object-fit: contain;
@@ -21,7 +22,7 @@ h2{
 }
 h3{
     font-weight: 500;
-    margin-bottom: .125rem;
+    margin-bottom: .25rem;
 }
 .line{
     display: flex;
