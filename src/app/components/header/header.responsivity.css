@@ -1,3 +1,15 @@
+@media (max-width: 992px){
+    .navbar-collapse{
+        width: 100% !important;
+    }
+    .navbar-nav{
+        align-items: center !important;
+    }
+    .nav-item, .nav-link{
+        width: fit-content;
+    }
+}
+
 @media (max-width: 868.98px) {
     header{
         flex-direction: column;
@@ -20,5 +32,16 @@
     }
     #right-side nav a{
         text-align: center;
+    }
+}
+@media (max-width: 416.98px) {
+    .container-fluid{
+        justify-content: center;
+    }
+    .navbar-brand{
+        margin-right: 0;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1rem !important;
     }
 }

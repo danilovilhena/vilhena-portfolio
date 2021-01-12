@@ -1,12 +1,25 @@
-<header class="mx-auto">
-    <h1 routerLink="/">Danilo Vilhena</h1>
-    <div id="right-side">
-        <nav class="nav">
+<nav class="navbar navbar-expand-lg mx-auto">
+    <div class="container-fluid">
+      <h1 class="navbar-brand" routerLink="/">Danilo Vilhena</h1>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#right-side" aria-controls="right-side" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="right-side">
+        <ul class="navbar-nav">
+          <li class="nav-item">
             <a class="nav-link" routerLink="/projects" [class.active]="isProjects">Projetos</a>
+          </li>
+          <li class="nav-item ms-lg-3">
             <a class="nav-link" routerLink="/tech" [class.active]="isTech">Tecnologias</a>
+          </li>
+          <li class="nav-item ms-lg-3">
             <a class="nav-link" routerLink="/contact" [class.active]="isContact">Contato</a>
-        </nav>
-        <a *ngIf="language == 'pt'"><img src="assets/images/brazil.svg" alt="Bandeira do Brasil" id="flag-btn" (click)="changeLanguage()"></a>
-        <a *ngIf="language != 'pt'"><img src="assets/images/usa.svg" alt="Bandeira dos EUA" id="flag-btn" (click)="changeLanguage()"></a>
+          </li>
+          <li class="nav-item ms-lg-3">
+            <a *ngIf="language == 'pt'"><img src="assets/images/brazil.svg" alt="Bandeira do Brasil" id="flag-btn" (click)="changeLanguage()"></a>
+            <a *ngIf="language != 'pt'"><img src="assets/images/usa.svg" alt="Bandeira dos EUA" id="flag-btn" (click)="changeLanguage()"></a>
+          </li>
+        </ul>
+      </div>
     </div>
-</header>
+</nav>
