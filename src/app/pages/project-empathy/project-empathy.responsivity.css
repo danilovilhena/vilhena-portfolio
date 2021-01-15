@@ -1,0 +1,62 @@
+@media (max-width: 767.98px) {
+    ul{
+        margin-left: 1rem;
+    }
+    #inverted-button{
+        align-self: center;
+    }
+    main{
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 575.98px) {
+    h4{
+        margin-left: 0;
+    }
+    li{
+        margin-bottom: 1rem;
+    }
+    #buttons{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    #description div{
+        align-items: flex-start !important;
+    }
+    #description div img{
+        margin-top: .5rem;
+    }
+    
+}
+@media (max-width: 549.98px){
+    #figma-button{
+        margin-right: 0;
+    }
+    #regular-button{
+        margin-top: 1rem;
+    }
+}
+@media (max-width: 364.98px) {
+    #buttons, #buttons > div{
+        flex-direction: column;
+    }
+    #github-button{
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+    #technologies > div > div{
+        flex-direction: column;
+    }
+    ul{
+        padding-left: 0;
+    }
+    li, p{
+        font-size: 1.125rem;
+    }
+    h4{
+        margin-top: 2rem;
+    }
+    
+}

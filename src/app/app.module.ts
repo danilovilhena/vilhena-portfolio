@@ -8,6 +8,13 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { ProjectBlogComponent } from './pages/project-blog/project-blog.component';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { ProjectCovidComponent } from './pages/project-covid/project-covid.component';
+import { ProjectEmpathyComponent } from './pages/project-empathy/project-empathy.component';
+import { ProjectLandingComponent } from './pages/project-landing/project-landing.component';
+import { ProjectWalComponent } from './pages/project-wal/project-wal.component';
+import { ProjectMoviesComponent } from './pages/project-movies/project-movies.component';
 
 
 @NgModule({
@@ -17,7 +24,14 @@ import { ContactComponent } from './pages/contact/contact.component';
     HeaderComponent,
     FooterComponent,
     ProjectsComponent,
-    ContactComponent
+    ContactComponent,
+    ProjectBlogComponent,
+    NotFoundComponent,
+    ProjectCovidComponent,
+    ProjectEmpathyComponent,
+    ProjectLandingComponent,
+    ProjectWalComponent,
+    ProjectMoviesComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

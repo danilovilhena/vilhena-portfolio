@@ -9,7 +9,7 @@ h2{
 #sections{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .section{
     padding: 1.5rem 2rem 1.5rem 2rem;
@@ -57,6 +57,7 @@ h2{
     border: none;
     transition: all 0.25s ease-in-out;
     text-decoration: none;
+    cursor: pointer;
 }
 .section a:hover{
     background-color: #ffd86e;

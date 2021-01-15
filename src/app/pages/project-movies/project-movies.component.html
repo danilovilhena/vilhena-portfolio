@@ -1,0 +1,50 @@
+<app-header></app-header>
+<main class="mx-auto">
+    <div id="title">
+        <img src="assets/images/projects/camera.svg" alt="Ilustração de uma câmera">
+        <h2>Buscador de filmes</h2>
+    </div>
+    <img id="project-img" src="assets/images/captures/wal.png" alt="Imagem do Plugin WAL">
+    <div id="buttons">
+        <div style="display: flex;">
+            <a id="github-button" href="https://github.com/danilovilhena/angular-themoviedb-spa" target="_blank"><img src="assets/images/technologies/github.svg" alt="Ícone do Github">Github</a>
+            <a id="figma-button" href="https://www.figma.com/file/eFP78Pkpr4uMSxCjlJaDp5/SPA-The-Movie-DB" target="_blank"><img src="assets/images/technologies/figma.svg" alt="Ícone do Figma">Figma</a>
+        </div>
+        <a id="regular-button" href="https://vilhena-movies.netlify.app" target="_blank">Aplicação</a>
+    </div>
+    <section id="description">
+        <h3>Descrição da aplicação</h3>
+        <div style="display: flex; align-items: center; margin-top: 1rem;">
+            <img src="assets/images/ellipse.svg" aria-hidden="true">
+            <p>Site que consome a API do The Movie DB para exibir, buscar e se aprofundar em mais detalhes de diversos filmes.</p>
+        </div>
+    </section>
+    <section id="technologies">
+        <h3>Tecnologias usadas</h3>
+        <div style="display: flex; margin-left: 1rem; margin-top: 1rem; flex-direction: column;">
+            <div style="display: flex;">
+                <div class="technology" style="margin-right: 2rem;">
+                    <img src="assets/images/technologies/angular.svg" alt="Ícone do Angular">
+                    <p>Angular</p>
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div class="technology" style="margin-right: 2rem;">
+                    <img src="assets/images/technologies/bootstrap.svg" alt="Ícone do Bootstrap">
+                    <p>Bootstrap</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="details">
+        <h3>Detalhes da implementação</h3>
+        <ul>
+            <li><img src="assets/images/ellipse.svg" aria-hidden="true">Componentizei e reutilizei os elementos</li>
+            <li><img src="assets/images/ellipse.svg" aria-hidden="true">Consumi a API do The Movie DB para receber os dados por gênero de filme e realizar buscas</li>
+            <li><img src="assets/images/ellipse.svg" aria-hidden="true">Implementei as funcionalidade de alto contraste e mudança no tamanho da fonte para acessibilizar mais a página</li>
+            <li><img src="assets/images/ellipse.svg" aria-hidden="true">Utilizei tags semânticas, textos alternativos e outras práticas para garantir a acessibilidade do site</li>
+        </ul>
+    </section>
+    <a id="inverted-button" routerLink="/projects">Voltar</a>
+</main>
+<app-footer></app-footer>

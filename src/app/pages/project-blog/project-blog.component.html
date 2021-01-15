@@ -1,0 +1,65 @@
+<app-header></app-header>
+<main class="mx-auto">
+    <div id="title">
+        <img src="assets/images/projects/blog.svg" alt="Ilustração de um computador">
+        <h2>Blog Tech News</h2>
+    </div>
+    <img id="project-img" src="assets/images/captures/blog.png" alt="Imagem do Blog Tech News">
+    <div id="buttons">
+        <div style="display: flex;">
+            <a id="github-button" href="https://github.com/danilovilhena/angular-express-blog" target="_blank"><img src="assets/images/technologies/github.svg" alt="Ícone do Github">Github</a>
+            <a id="figma-button" href="https://www.figma.com/file/sQaWT6nuNp4uw6ZsOfGpjV/Tech-News-Blog" target="_blank"><img src="assets/images/technologies/figma.svg" alt="Ícone do Figma">Figma</a>
+        </div>
+        <a id="regular-button" href="https://danilovilhena.github.io/angular-express-blog" target="_blank">Aplicação</a>
+    </div>
+    <section id="description">
+        <h3>Descrição da aplicação</h3>
+        <div style="display: flex; align-items: center; margin-top: 1rem;">
+            <img src="assets/images/ellipse.svg" aria-hidden="true">
+            <p>Blog com notícias de tecnologia, agrupadas por assunto ou meses do ano. Com a possibilidade de cadastro, você pode postar suas próprias produções.</p>
+        </div>
+    </section>
+    <section id="technologies">
+        <h3>Tecnologias usadas</h3>
+        <div style="display: flex; margin-left: 1rem; margin-top: 1rem; flex-direction: column;">
+            <div style="display: flex;">
+                <div class="technology" style="margin-right: 2rem;">
+                    <img src="assets/images/technologies/angular.svg" alt="Ícone do Angular">
+                    <p>Angular</p>
+                </div>
+                <div class="technology">
+                    <img src="assets/images/technologies/express.svg" alt="Ícone do Express">
+                    <p>Express</p>
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div class="technology" style="margin-right: 2rem;">
+                    <img src="assets/images/technologies/bootstrap.svg" alt="Ícone do Bootstrap">
+                    <p>Bootstrap</p>
+                </div>
+                <div class="technology">
+                    <img src="assets/images/technologies/mongodb.svg" alt="Ícone do MongoDB">
+                    <p>MongoDB</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="details">
+        <h3>Detalhes da implementação</h3>
+        <h4 style="margin-top: 1rem;">Frontend</h4>
+        <ul>
+            <li><img src="assets/images/ellipse.svg" aria-hidden="true">Componentizei e reutilizei os elementos</li>
+            <li><img src="assets/images/ellipse.svg" aria-hidden="true">Utilizei tags semânticas, textos alternativos e outras práticas para garantir a acessibilidade do site</li>
+            <li><img src="assets/images/ellipse.svg" aria-hidden="true">Tornei o site responsivo</li>
+            <li><img src="assets/images/ellipse.svg" aria-hidden="true">Otimizei o site de acordo com o Google Lighthouse</li>
+        </ul>
+        <h4>Backend</h4>
+        <ul>
+            <li><img src="assets/images/ellipse.svg" aria-hidden="true">Utilizei o Mongoose, para interagir com o banco de dados</li>
+            <li><img src="assets/images/ellipse.svg" aria-hidden="true">Encriptei as senhas do usuário com a biblioteca Bcrypt</li>
+            <li><img src="assets/images/ellipse.svg" aria-hidden="true">Utilizei JSON Web Token para validar o acesso do usuário, salvando-o no localStorage</li>
+        </ul>
+    </section>
+    <a id="inverted-button" routerLink="/projects">Voltar</a>
+</main>
+<app-footer></app-footer>
