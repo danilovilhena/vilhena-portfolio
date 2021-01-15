@@ -12,7 +12,7 @@
     "serve:ssr": "node dist/vilhena-portfolio/server/main.js",
     "build:ssr": "ng build --prod && ng run vilhena-portfolio:server:production",
     "prerender": "ng run vilhena-portfolio:prerender",
-    "deploy": "ng build && push-dir --dir=dist/vilhena-portfolio --branch=gh-pages --cleanup"
+    "deploy": "ng build && push-dir --dir=dist/vilhena-portfolio/browser --branch=gh-pages --cleanup"
   },
   "private": true,
   "dependencies": {
