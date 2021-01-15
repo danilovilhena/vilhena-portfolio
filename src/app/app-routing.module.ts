@@ -21,7 +21,8 @@ const routes: Routes = [
   { path: "projects/movies", component: ProjectMoviesComponent },
   { path: "projects/wal", component: ProjectWalComponent },
   { path: "contact", component: ContactComponent },
-  { path: '**', component: NotFoundComponent }
+  { path: '404', component: NotFoundComponent },
+  { path: '**', redirectTo: '404' }
 ];
 
 @NgModule({
