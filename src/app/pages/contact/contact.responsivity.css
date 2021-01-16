@@ -36,4 +36,7 @@
     .line p{
         font-size: 1.125rem;
     }
+    main > section > div > div:nth-child(2) > img{
+        display: none;
+    }
 }
