@@ -10,6 +10,7 @@ import { ProjectLandingComponent } from './pages/project-landing/project-landing
 import { ProjectMoviesComponent } from './pages/project-movies/project-movies.component';
 import { ProjectWalComponent } from './pages/project-wal/project-wal.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
+import { TechnologiesComponent } from './pages/technologies/technologies.component';
 
 const routes: Routes = [
   { path: "", component: HomeComponent },
@@ -21,6 +22,7 @@ const routes: Routes = [
   { path: "projects/movies", component: ProjectMoviesComponent },
   { path: "projects/wal", component: ProjectWalComponent },
   { path: "contact", component: ContactComponent },
+  { path: "tech", component: TechnologiesComponent },
   { path: '404', component: NotFoundComponent },
   { path: '**', redirectTo: '404' }
 ];

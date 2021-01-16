@@ -15,6 +15,7 @@ import { ProjectEmpathyComponent } from './pages/project-empathy/project-empathy
 import { ProjectLandingComponent } from './pages/project-landing/project-landing.component';
 import { ProjectWalComponent } from './pages/project-wal/project-wal.component';
 import { ProjectMoviesComponent } from './pages/project-movies/project-movies.component';
+import { TechnologiesComponent } from './pages/technologies/technologies.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { ProjectMoviesComponent } from './pages/project-movies/project-movies.co
     ProjectEmpathyComponent,
     ProjectLandingComponent,
     ProjectWalComponent,
-    ProjectMoviesComponent
+    ProjectMoviesComponent,
+    TechnologiesComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

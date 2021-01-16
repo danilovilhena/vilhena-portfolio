@@ -1,0 +1,33 @@
+@media (max-width: 1553.98px) {
+    #content > div:nth-child(2) > div:nth-child(3){
+        margin-top: 2rem;
+    }
+}
+@media (max-width: 1031.98px) {
+    #content > div:nth-child(2) > div:nth-child(2){
+        margin-top: 2rem;
+    }
+}
+@media (max-width: 912.98px) {
+    #content > div:nth-child(1){
+        flex-wrap: wrap;
+    }
+    #content > div:nth-child(1) > div:nth-child(2){
+        margin-top: 2rem;
+    }
+    .area{
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-right: 0 !important;
+    }
+}
+@media (max-width: 767.98px) {
+
+}
+@media (max-width: 575.98px) {
+
+}
+
+@media (max-width: 424.98px) {
+
+}
