@@ -1,46 +1,46 @@
 <app-header></app-header>
 <main class="mx-auto">
     <div id="title">
-        <img src="assets/images/projects/game.png" alt="Ilustração de um controle de videogame">
+        <img src="assets/images/projects/game.png" alt="{{'project_empathy.title_alt' | translate}}">
         <h2>Empathy Lab</h2>
     </div>
-    <img id="project-img" src="assets/images/captures/empathy.png" alt="Imagem do Empathy Lab">
+    <img id="project-img" src="assets/images/captures/empathy.png" alt="{{'project_empathy.image_alt' | translate}}">
     <div id="buttons">
-        <a id="regular-button" href="leadfortaleza.com.br/empathywal/" target="_blank">Aplicação</a>
+        <a id="regular-button" href="leadfortaleza.com.br/empathywal/" target="_blank">{{'project_blog.app' | translate}}</a>
     </div>
     <section id="description">
-        <h3>Descrição da aplicação</h3>
+        <h3>{{'project_blog.description_title' | translate}}</h3>
         <div style="display: flex; align-items: center; margin-top: 1rem;">
             <img src="assets/images/ellipse.svg" aria-hidden="true">
-            <p>Jogo para demonstrar as dificuldades de uma pessoa cega ou com baixa visão ao acessar a web</p>
+            <p>{{'project_empathy.description' | translate}}</p>
         </div>
     </section>
     <section id="technologies">
-        <h3>Tecnologias usadas</h3>
+        <h3>{{'project_blog.tech_title' | translate}}</h3>
         <div style="display: flex; margin-left: 1rem; margin-top: 1rem; flex-direction: column;">
             <div style="display: flex;">
                 <div class="technology" style="margin-right: 2rem;">
-                    <img src="assets/images/technologies/angular.svg" alt="Ícone do Angular">
+                    <img src="assets/images/technologies/angular.svg" alt="{{'tech.angular' | translate}}">
                     <p>Angular</p>
                 </div>
             </div>
             <div style="display: flex;">
                 <div class="technology" style="margin-right: 2rem;">
-                    <img src="assets/images/technologies/bootstrap.svg" alt="Ícone do Bootstrap">
+                    <img src="assets/images/technologies/bootstrap.svg" alt="{{'tech.bootstrap' | translate}}">
                     <p>Bootstrap</p>
                 </div>
             </div>
         </div>
     </section>
     <section id="details">
-        <h3>Detalhes da implementação</h3>
+        <h3>{{'project_blog.details_title' | translate}}</h3>
         <ul>
-            <li><img src="assets/images/ellipse.svg" aria-hidden="true">Projeto desenvolvido durante meu estágio no LEAD Fortaleza</li>
-            <li><img src="assets/images/ellipse.svg" aria-hidden="true">Internacionalizamos a aplicação para inglês, espanhol e português</li>
-            <li><img src="assets/images/ellipse.svg" aria-hidden="true">Criamos uma leitor de tela nativo de Javascript para simular a experiência do usuário cego na internet</li>
-            <li><img src="assets/images/ellipse.svg" aria-hidden="true">Utilizamos tags semânticas, textos alternativos e outras práticas para garantir a acessibilidade do site</li>
+            <li><img src="assets/images/ellipse.svg" aria-hidden="true">{{'project_empathy.detail1' | translate}}</li>
+            <li><img src="assets/images/ellipse.svg" aria-hidden="true">{{'project_empathy.detail2' | translate}}</li>
+            <li><img src="assets/images/ellipse.svg" aria-hidden="true">{{'project_empathy.detail3' | translate}}</li>
+            <li><img src="assets/images/ellipse.svg" aria-hidden="true">{{'project_blog.detail2' | translate}}</li>
         </ul>
     </section>
-    <a id="inverted-button" routerLink="/projects">Voltar</a>
+    <a id="inverted-button" routerLink="/projects">{{'project_blog.return' | translate}}</a>
 </main>
 <app-footer></app-footer>

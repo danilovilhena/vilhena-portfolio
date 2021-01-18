@@ -1,58 +1,58 @@
 <app-header></app-header>
 <main class="mx-auto">
     <div id="title">
-        <img src="assets/images/projects/covid.png" alt="Ilustração de um vírus">
-        <h2>Dashboard COVID-19</h2>
+        <img src="assets/images/projects/covid.png" alt="{{'project_covid.title_alt' | translate}}">
+        <h2>{{'project_covid.title' | translate}}</h2>
     </div>
-    <img id="project-img" src="assets/images/captures/covid.png" alt="Imagem do Dashboard COVID-19">
+    <img id="project-img" src="assets/images/captures/covid.png" alt="{{'project_covid.image_alt' | translate}}">
     <div id="buttons">
         <div style="display: flex;">
-            <a id="github-button" href="https://github.com/danilovilhena/angular-covid-dashboard" target="_blank"><img src="assets/images/technologies/github.svg" alt="Ícone do Github">Github</a>
-            <a id="figma-button" href="https://www.figma.com/file/qTJfTwpwZS4qElGaYfUkHQ/COVID-Dashboard" target="_blank"><img src="assets/images/technologies/figma.svg" alt="Ícone do Figma">Figma</a>
+            <a id="github-button" href="https://github.com/danilovilhena/angular-covid-dashboard" target="_blank"><img src="assets/images/technologies/github.svg" alt="{{'tech.github' | translate}}">Github</a>
+            <a id="figma-button" href="https://www.figma.com/file/qTJfTwpwZS4qElGaYfUkHQ/COVID-Dashboard" target="_blank"><img src="assets/images/technologies/figma.svg" alt="{{'tech.figma' | translate}}">Figma</a>
         </div>
-        <a id="regular-button" href="https://vilhena-covid-dashboard.netlify.app" target="_blank">Aplicação</a>
+        <a id="regular-button" href="https://vilhena-covid-dashboard.netlify.app" target="_blank">{{'project_blog.app' | translate}}</a>
     </div>
     <section id="description">
-        <h3>Descrição da aplicação</h3>
+        <h3>{{'project_blog.description_title' | translate}}</h3>
         <div style="display: flex; align-items: center; margin-top: 1rem;">
             <img src="assets/images/ellipse.svg" aria-hidden="true">
-            <p>Aplicação para exibir as informações do COVID em cidades e estados do Brasil e do mundo.</p>
+            <p>{{'project_covid.description' | translate}}</p>
         </div>
     </section>
     <section id="technologies">
-        <h3>Tecnologias usadas</h3>
+        <h3>{{'project_blog.tech_title' | translate}}</h3>
         <div style="display: flex; margin-left: 1rem; margin-top: 1rem; flex-direction: column;">
             <div style="display: flex;">
                 <div class="technology" style="margin-right: 2rem;">
-                    <img src="assets/images/technologies/angular.svg" alt="Ícone do Angular">
+                    <img src="assets/images/technologies/angular.svg" alt="{{'tech.angular' | translate}}">
                     <p>Angular</p>
                 </div>
                 <div class="technology">
-                    <img src="assets/images/technologies/python.svg" alt="Ícone do Python">
+                    <img src="assets/images/technologies/python.svg" alt="{{'project_covid.tech.py' | translate}}">
                     <p>Python</p>
                 </div>
             </div>
             <div style="display: flex;">
                 <div class="technology" style="margin-right: 2rem;">
-                    <img src="assets/images/technologies/bootstrap.svg" alt="Ícone do Bootstrap">
+                    <img src="assets/images/technologies/bootstrap.svg" alt="{{'tech.bootstrap' | translate}}">
                     <p>Bootstrap</p>
                 </div>
             </div>
         </div>
     </section>
     <section id="details">
-        <h3>Detalhes da implementação</h3>
+        <h3>{{'project_blog.details_title' | translate}}</h3>
         <h4 style="margin-top: 1rem;">Frontend</h4>
         <ul>
-            <li><img src="assets/images/ellipse.svg" aria-hidden="true">Componentizei e reutilizei os elementos</li>
-            <li><img src="assets/images/ellipse.svg" aria-hidden="true">Consumi 4 APIs para coletar de forma mais completa os dados do COVID-19 no Brasil e no mundo</li>
-            <li><img src="assets/images/ellipse.svg" aria-hidden="true">Tratei os dados recebidos para melhorar a experiência do usuário em casos de falhas nas APIs</li>
+            <li><img src="assets/images/ellipse.svg" aria-hidden="true">{{'project_blog.detail1' | translate}}</li>
+            <li><img src="assets/images/ellipse.svg" aria-hidden="true">{{'project_covid.detail1' | translate}}</li>
+            <li><img src="assets/images/ellipse.svg" aria-hidden="true">{{'project_covid.detail2' | translate}}</li>
         </ul>
         <h4>Web Scraping</h4>
         <ul>
-            <li><img src="assets/images/ellipse.svg" aria-hidden="true">Utilizei a biblioteca selenium do Python para coletar a quantia destinada a cada estado no combate ao COVID-19</li>
+            <li><img src="assets/images/ellipse.svg" aria-hidden="true">{{'project_covid.detail3' | translate}}</li>
         </ul>
     </section>
-    <a id="inverted-button" routerLink="/projects">Voltar</a>
+    <a id="inverted-button" routerLink="/projects">{{'project_blog.return' | translate}}</a>
 </main>
 <app-footer></app-footer>

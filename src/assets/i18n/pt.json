@@ -1,0 +1,128 @@
+{
+    "header": {
+        "projects": "Projetos",
+        "tech": "Tecnologias",
+        "contact": "Contato",
+        "brazil_alt": "Bandeira do Brasil",
+        "usa_alt": "Bandeira dos EUA",
+        "collapse_alt": "Exibir menu de navegação"
+    },
+    "footer": {
+        "instagram": "https://instagram.com/dev_danilo/"
+    },
+    "contact": {
+        "title": "Contato",
+        "avatar_alt": "Avatar do Danilo Vilhena",
+        "mail_alt": "Ícone de email",
+        "instagram_alt": "Ícone do Instagram",
+        "instagram": "dev_danilo"
+    },
+    "home": {
+        "top_h2": "Olá, eu sou o Danilo!",
+        "top_p": "Sou um <span>desenvolvedor web</span> em Fortaleza. <br>Dou enfâse à acessibilidade, usabilidade e a garantir uma boa experiência para os usuários.",
+        "projects": "Projetos",
+        "tech": "Tecnologias",
+        "projects_p": "Descubra mais detalhes sobre as aplicações que já desenvolvi.",
+        "tech_p": "Conheça as tecnologias que tenho conhecimento e experiência",
+        "button": "Ver mais",
+        "rocket_alt": "Ilustração de um foguete",
+        "computer_alt": "Ilustração de um computador"
+    },
+    "not_found":{
+        "title": "Página em construção ou não encontrada!",
+        "button": "Voltar",
+        "alt": "Ilustração de página não encontrada"
+    },
+    "project_blog": {
+        "title": "Blog Tech News",
+        "title_alt": "Ilustração de um computador",
+        "image_alt": "Imagem do Blog Tech News",
+        "description_title": "Descrição da aplicação",
+        "description": "Blog com notícias de tecnologia, agrupadas por assunto ou meses do ano. Com a possibilidade de cadastro, você pode postar suas próprias produções.",
+        "tech_title": "Tecnologias usadas",
+        "details_title": "Detalhes da implementação",
+        "detail1": "Componentizei e reutilizei os elementos",
+        "detail2": "Utilizei tags semânticas, textos alternativos e outras práticas para garantir a acessibilidade do site",
+        "detail3": "Tornei o site responsivo",
+        "detail4": "Otimizei o site de acordo com o Google Lighthouse",
+        "detail5": "Utilizei o Mongoose, para interagir com o banco de dados",
+        "detail6": "Encriptei as senhas do usuário com a biblioteca Bcrypt",
+        "detail7": "Utilizei JSON Web Token para validar o acesso do usuário, salvando-o no localStorage",
+        "return": "Voltar",
+        "app": "Aplicação"
+    },
+    "project_covid": {
+        "title": "Dashboard COVID-19",
+        "title_alt": "Ilustração de um virus",
+        "image_alt": "Imagem do Dashboard COVID-19",
+        "description": "Aplicação para exibir as informações do COVID em cidades e estados do Brasil e do mundo.",
+        "detail1": "Consumi 4 APIs para coletar de forma mais completa os dados do COVID-19 no Brasil e no mundo",
+        "detail2": "Tratei os dados recebidos para melhorar a experiência do usuário em casos de falhas nas APIs",
+        "detail3": "Utilizei a biblioteca selenium do Python para coletar a quantia destinada a cada estado no combate ao COVID-19"
+    },
+    "project_empathy": {
+        "title_alt": "Ilustração de um controle de videogame",
+        "image_alt": "Imagem do Empathy Lab",
+        "description": "Jogo para demonstrar as dificuldades de uma pessoa cega ou com baixa visão ao acessar a web",
+        "detail1": "Projeto desenvolvido durante meu estágio no LEAD Fortaleza",
+        "detail2": "Internacionalizamos a aplicação para inglês, espanhol e português",
+        "detail3": "Criamos uma leitor de tela nativo de Javascript para simular a experiência do usuário cego na internet"
+    },
+    "project_landing": {
+        "title": "Landing page para captura de e-mails",
+        "title_alt": "Ilustração de um caixa de email",
+        "image_alt": "Imagem do Landing page para captura de e-mails",
+        "description": "Landing page para reunir interessados no produto de um cliente em um grupo do Telegram e em uma lista de emails.",
+        "detail1": "Configurei o Mailchimp para armazenar os dados de possíveis clientes",
+        "detail2": "Conectei o site com o Mailchimp"
+    },
+    "project_movies": {
+        "title": "Buscador de filmes",
+        "title_alt": "Ilustração de uma câmera",
+        "image_alt": "Imagem do buscador de filmes",
+        "description": "Site que consome a API do The Movie DB para exibir, buscar e se aprofundar em mais detalhes de diversos filmes.",
+        "detail1": "Consumi a API do The Movie DB para receber os dados por gênero de filme e realizar buscas",
+        "detail2": "Implementei as funcionalidade de alto contraste e mudança no tamanho da fonte para acessibilizar mais a página"
+    },
+    "project_wal": {
+        "title": "Plugin WAL",
+        "title_alt": "Ilustração de um computador",
+        "image_alt": "Imagem do Plugin WAL",
+        "description": "Plugin para tornar a web mais utilizável e acessível para pessoas com deficiência visual.",
+        "detail1": "Projeto ainda em desenvolvimento, no meu estágio no LEAD Fortaleza",
+        "detail2": "Implementamos uma série de funcionalidades que acessibilizam a internet, como: modificar o tamanho e o tipo de fonte, o espaçamento, as cores da página, ativar alto contraste, bloquear sons que reproduzem automaticamente, etc."
+    },
+    "projects": {
+        "title": "Projetos",
+        "more_details": "Mais detalhes",
+        "see_app": "Ver aplicação"
+    },
+    "tech": {
+        "title": "Tecnologias",
+        "languages": "Linguagens",
+        "tools_js": "Ferramentas de Javascript",
+        "tools_css": "Ferramentas de CSS",
+        "design": "Design e Prototipagem",
+        "database": "Banco de Dados",
+        "js": "Ícone do Javascript",
+        "ts": "Ícone do Typescript",
+        "py": "Ícone do Python",
+        "java": "Ícone do Java",
+        "angular": "Ícone do Angular",
+        "vue": "Ícone do Vue",
+        "react": "Ícone do React",
+        "jquery": "Ícone do jQuery",
+        "next": "Ícone do Next js",
+        "electron": "Ícone do Electron",
+        "express": "Ícone do Express",
+        "webpack": "Ícone do Webpack",
+        "figma": "Ícone do Figma",
+        "xd": "Ícone do Adobe XD",
+        "bootstrap": "Ícone do Bootstrap",
+        "sass": "Ícone do Sass",
+        "mysql": "Ícone do MySQL",
+        "mongodb": "Ícone do MongoDB",
+        "mailchimp": "Ícone do Mailchimp",
+        "github": "Ícone do Github"
+    }
+}

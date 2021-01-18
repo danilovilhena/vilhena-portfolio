@@ -14,6 +14,8 @@ import { TechnologiesComponent } from './pages/technologies/technologies.compone
 
 const routes: Routes = [
   { path: "", component: HomeComponent },
+  { path: "en", component: HomeComponent },
+  { path: "pt", component: HomeComponent },
   { path: "projects", component: ProjectsComponent },
   { path: "projects/blog", component: ProjectBlogComponent },
   { path: "projects/covid", component: ProjectCovidComponent },
@@ -28,7 +30,9 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {
+    scrollPositionRestoration: 'enabled'
+  })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

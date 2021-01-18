@@ -1,0 +1,128 @@
+{
+    "header": {
+        "projects": "Projects",
+        "tech": "Technologies",
+        "contact": "Contact",
+        "brazil_alt": "Brazil flag",
+        "usa_alt": "USA flag",
+        "collapse_alt": "Show navigation menu"
+    },
+    "footer": {
+        "instagram": "https://www.instagram.com/dani.developer/"
+    },
+    "contact": {
+        "title": "Contact",
+        "avatar_alt": "Danilo Vilhena's Avatar",
+        "mail_alt": "E-mail icon",
+        "instagram_alt": "Instagram icon",
+        "instagram": "dani.developer"
+    },
+    "home": {
+        "top_h2": "Hello, I'm Danilo!",
+        "top_p": "I am a <span>web developer</span> from Brazil. <br>I emphasize acessibility, usability and ensuring an excellent user experience.",
+        "projects": "Projects",
+        "tech": "Technologies",
+        "projects_p": "Discover more details about the applications I developed",
+        "tech_p": "Find out the technologies I know and have experience",
+        "button": "See more",
+        "rocket_alt": "Rocket illustration",
+        "computer_alt": "Computer illustration"
+    },
+    "not_found":{
+        "title": "Page in construction or not found!",
+        "button": "Return",
+        "alt": "Page not found illustration"
+    },
+    "project_blog": {
+        "title": "Tech News Blog",
+        "title_alt": "Computer illustration",
+        "image_alt": "Image of the Tech News blog",
+        "description_title": "Application description",
+        "description": "Blog with news about technology, divided by topic or post date. With the option to register, you can post your own content.",
+        "tech_title": "Technologies used",
+        "details_title": "Implementation details",
+        "detail1": "Componentization and reuse of elements",
+        "detail2": "Used semantic tags, alt texts and other good practices to assure the acessibility of the page",
+        "detail3": "Made the page responsive",
+        "detail4": "Optimized according to Google Lighthouse",
+        "detail5": "Used Mongoose to interact with the database",
+        "detail6": "Encrypted users passwords with the library Bcrypt",
+        "detail7": "Used JSON Web Token to valid user access, storing it in the localStorage",
+        "return": "Return",
+        "app": "Application"
+    },
+    "project_covid": {
+        "title": "COVID-19 Dashboard",
+        "title_alt": "Virus illustration",
+        "image_alt": "COVID-19 Dashboard image",
+        "description": "Application to show COVID data about cities and states from Brazil and from the world.",
+        "detail1": "Used 4 APIs to collect data as complete as possible about the COVID-19 in Brazil and in the world",
+        "detail2": "Processed the data collected to improve user experience in case of the APIs failing",
+        "detail3": "Used Python's library Selenium to collect the amount of money destinated to each brazilian state to combate the COVID-19"
+    },
+    "project_empathy": {
+        "title_alt": "Videogame controller illustration",
+        "image_alt": "Empathy Lab image",
+        "description": "Game to demonstrate the difficulties blind or low vision people encounter when using the internet",
+        "detail1": "Project developed during my internship at LEAD Fortaleza",
+        "detail2": "Internationalized the application to english, spanish and portuguese",
+        "detail3": "Created a native Javascript screen reader to simulate a blind user experience in the internet"
+    },
+    "project_landing": {
+        "title": "Mail capture landing page",
+        "title_alt": "Mail box illustration",
+        "image_alt": "Mail capture landing page image",
+        "description": "Landing page to gather interest people in my client's product in a telegram group and in an e-mail list.",
+        "detail1": "Configured Mailchimp to store data about possible costumers",
+        "detail2": "Connected the page with Mailchimp"
+    },
+    "project_movies": {
+        "title": "Movie searcher",
+        "title_alt": "Camera illustration",
+        "image_alt": "Movie searcher image",
+        "description": "Website that uses The Movie DB API to show, search and discover more details about a number of movies",
+        "detail1": "Used The Movie DB API to get data about movies by gender and make searches",
+        "detail2": "Implemented high contrast and change font size functionalities to make the page more accessible"
+    },
+    "project_wal": {
+        "title": "WAL Web Extension",
+        "title_alt": "Computer illustration",
+        "image_alt": "WAL Web Extension image",
+        "description": "Web extension to make the web more accessible and usable for people with visual impairment.",
+        "detail1": "Project still in development in my internship at LEAD Fortaleza",
+        "detail2": "Implemented a series of functionalities that make the web more acessible, like: change font type and size, line height, page colors, activate high contrast, stop sounds that reproduce automatically, etc."
+    },
+    "projects": {
+        "title": "Projects",
+        "more_details": "More details",
+        "see_app": "Open application"
+    },
+    "tech": {
+        "title": "Technologies",
+        "languages": "Programming languagens",
+        "tools_js": "Javascript tools",
+        "tools_css": "CSS tools",
+        "design": "Design & Prototyping",
+        "database": "Databases",
+        "js": "Javascript icon",
+        "ts": "Typescript icon",
+        "py": "Python icon",
+        "java": "Java icon",
+        "angular": "Angular icon",
+        "vue": "Vue icon",
+        "react": "React icon",
+        "jquery": "jQuery icon",
+        "next": "Next icon js",
+        "electron": "Electron icon",
+        "express": "Express icon",
+        "webpack": "Webpack icon",
+        "figma": "Figma icon",
+        "xd": "Adobe icon XD",
+        "bootstrap": "Bootstrap icon",
+        "sass": "Sass icon",
+        "mysql": "MySQL icon",
+        "mongodb": "MongoDB icon",
+        "mailchimp": "Mailchimp icon",
+        "github": "Github icon"
+    }
+}

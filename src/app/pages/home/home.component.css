@@ -20,7 +20,7 @@
     font-size: 1.5rem;
     text-align: center;
 }
-#top-section span{
+span, #top-section > p > span, ::ng-deep span{
     font-weight: 500;
     color: #FFCA3A;
 }

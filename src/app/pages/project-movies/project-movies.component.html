@@ -1,50 +1,50 @@
 <app-header></app-header>
 <main class="mx-auto">
     <div id="title">
-        <img src="assets/images/projects/camera.png" alt="Ilustração de uma câmera">
-        <h2>Buscador de filmes</h2>
+        <img src="assets/images/projects/camera.png" alt="{{'project_movies.title_alt' | translate}}">
+        <h2>{{'project_movies.title' | translate}}</h2>
     </div>
-    <img id="project-img" src="assets/images/captures/movies.png" alt="Imagem do Buscador de filmes">
+    <img id="project-img" src="assets/images/captures/movies.png" alt="{{'project_movies.image_alt' | translate}}">
     <div id="buttons">
         <div style="display: flex;">
-            <a id="github-button" href="https://github.com/danilovilhena/angular-themoviedb-spa" target="_blank"><img src="assets/images/technologies/github.svg" alt="Ícone do Github">Github</a>
-            <a id="figma-button" href="https://www.figma.com/file/eFP78Pkpr4uMSxCjlJaDp5/SPA-The-Movie-DB" target="_blank"><img src="assets/images/technologies/figma.svg" alt="Ícone do Figma">Figma</a>
+            <a id="github-button" href="https://github.com/danilovilhena/angular-themoviedb-spa" target="_blank"><img src="assets/images/technologies/github.svg" alt="{{'tech.github' | translate}}">Github</a>
+            <a id="figma-button" href="https://www.figma.com/file/eFP78Pkpr4uMSxCjlJaDp5/SPA-The-Movie-DB" target="_blank"><img src="assets/images/technologies/figma.svg" alt="{{'tech.figma' | translate}}">Figma</a>
         </div>
-        <a id="regular-button" href="https://vilhena-movies.netlify.app" target="_blank">Aplicação</a>
+        <a id="regular-button" href="https://vilhena-movies.netlify.app" target="_blank">{{'project_blog.app' | translate}}</a>
     </div>
     <section id="description">
-        <h3>Descrição da aplicação</h3>
+        <h3>{{'project_blog.description_title' | translate}}</h3>
         <div style="display: flex; align-items: center; margin-top: 1rem;">
             <img src="assets/images/ellipse.svg" aria-hidden="true">
-            <p>Site que consome a API do The Movie DB para exibir, buscar e se aprofundar em mais detalhes de diversos filmes.</p>
+            <p>{{'project_movies.description' | translate}}</p>
         </div>
     </section>
     <section id="technologies">
-        <h3>Tecnologias usadas</h3>
+        <h3>{{'project_blog.tech_title' | translate}}</h3>
         <div style="display: flex; margin-left: 1rem; margin-top: 1rem; flex-direction: column;">
             <div style="display: flex;">
                 <div class="technology" style="margin-right: 2rem;">
-                    <img src="assets/images/technologies/angular.svg" alt="Ícone do Angular">
+                    <img src="assets/images/technologies/angular.svg" alt="{{'tech.angular' | translate}}">
                     <p>Angular</p>
                 </div>
             </div>
             <div style="display: flex;">
                 <div class="technology" style="margin-right: 2rem;">
-                    <img src="assets/images/technologies/bootstrap.svg" alt="Ícone do Bootstrap">
+                    <img src="assets/images/technologies/bootstrap.svg" alt="{{'tech.bootstrap' | translate}}">
                     <p>Bootstrap</p>
                 </div>
             </div>
         </div>
     </section>
     <section id="details">
-        <h3>Detalhes da implementação</h3>
+        <h3>{{'project_blog.details_title' | translate}}</h3>
         <ul>
-            <li><img src="assets/images/ellipse.svg" aria-hidden="true">Componentizei e reutilizei os elementos</li>
-            <li><img src="assets/images/ellipse.svg" aria-hidden="true">Consumi a API do The Movie DB para receber os dados por gênero de filme e realizar buscas</li>
-            <li><img src="assets/images/ellipse.svg" aria-hidden="true">Implementei as funcionalidade de alto contraste e mudança no tamanho da fonte para acessibilizar mais a página</li>
-            <li><img src="assets/images/ellipse.svg" aria-hidden="true">Utilizei tags semânticas, textos alternativos e outras práticas para garantir a acessibilidade do site</li>
+            <li><img src="assets/images/ellipse.svg" aria-hidden="true">{{'project_blog.detail1' | translate}}</li>
+            <li><img src="assets/images/ellipse.svg" aria-hidden="true">{{'project_movies.detail1' | translate}}</li>
+            <li><img src="assets/images/ellipse.svg" aria-hidden="true">{{'project_movies.detail2' | translate}}</li>
+            <li><img src="assets/images/ellipse.svg" aria-hidden="true">{{'project_blog.detail2' | translate}}</li>
         </ul>
     </section>
-    <a id="inverted-button" routerLink="/projects">Voltar</a>
+    <a id="inverted-button" routerLink="/projects">{{'project_blog.return' | translate}}</a>
 </main>
 <app-footer></app-footer>

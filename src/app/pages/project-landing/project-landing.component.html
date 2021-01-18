@@ -1,53 +1,53 @@
 <app-header></app-header>
 <main class="mx-auto">
     <div id="title">
-        <img src="assets/images/projects/mail.png" alt="Ilustração de um caixa de email">
-        <h2>Landing page para captura de e-mails</h2>
+        <img src="assets/images/projects/mail.png" alt="{{'project_landing.title_alt' | translate}}">
+        <h2>{{'project_landing.title' | translate}}</h2>
     </div>
-    <img id="project-img" src="assets/images/captures/landing.png" alt="Imagem do Landing page para captura de e-mails">
+    <img id="project-img" src="assets/images/captures/landing.png" alt="{{'project_landing.image_alt' | translate}}">
     <div id="buttons">
         <div style="display: flex;">
-            <a id="github-button" href="https://github.com/danilovilhena/konrad-capture" target="_blank"><img src="assets/images/technologies/github.svg" alt="Ícone do Github">Github</a>
+            <a id="github-button" href="https://github.com/danilovilhena/konrad-capture" target="_blank"><img src="assets/images/technologies/github.svg" alt="{{'tech.github' | translate}}">Github</a>
         </div>
-        <a id="regular-button" href="https://konradmota.com.br/#/" target="_blank">Aplicação</a>
+        <a id="regular-button" href="https://konradmota.com.br/#/" target="_blank">{{'project_blog.app' | translate}}</a>
     </div>
     <section id="description">
-        <h3>Descrição da aplicação</h3>
+        <h3>{{'project_blog.description_title' | translate}}</h3>
         <div style="display: flex; align-items: center; margin-top: 1rem;">
             <img src="assets/images/ellipse.svg" aria-hidden="true">
-            <p>Landing page para reunir interessados no produto de um cliente em um grupo do Telegram e em uma lista de emails.</p>
+            <p>{{'project_landing.description' | translate}}</p>
         </div>
     </section>
     <section id="technologies">
-        <h3>Tecnologias usadas</h3>
+        <h3>{{'project_blog.tech_title' | translate}}</h3>
         <div style="display: flex; margin-left: 1rem; margin-top: 1rem; flex-direction: column;">
             <div style="display: flex;">
                 <div class="technology" style="margin-right: 2rem;">
-                    <img src="assets/images/technologies/vue.svg" alt="Ícone do Vue">
+                    <img src="assets/images/technologies/vue.svg" alt="{{'tech.vue' | translate}}">
                     <p>Vue.js</p>
                 </div>
                 <div class="technology">
-                    <img src="assets/images/technologies/mailchimp.png" alt="Ícone do Mailchimp">
+                    <img src="assets/images/technologies/mailchimp.png" alt="{{'tech.mailchimp' | translate}}">
                     <p>Mailchimp</p>
                 </div>
             </div>
             <div style="display: flex;">
                 <div class="technology" style="margin-right: 2rem;">
-                    <img src="assets/images/technologies/bootstrap.svg" alt="Ícone do Bootstrap">
+                    <img src="assets/images/technologies/bootstrap.svg" alt="{{'tech.bootstrap' | translate}}">
                     <p>Bootstrap</p>
                 </div>
             </div>
         </div>
     </section>
     <section id="details">
-        <h3>Detalhes da implementação</h3>
+        <h3>{{'project_blog.details_title' | translate}}</h3>
         <ul>
-            <li><img src="assets/images/ellipse.svg" aria-hidden="true">Configurei o Mailchimp para armazenar os dados de possíveis clientes</li>
-            <li><img src="assets/images/ellipse.svg" aria-hidden="true">Conectei o site com o Mailchimp</li>
-            <li><img src="assets/images/ellipse.svg" aria-hidden="true">Tornei o site responsivo</li>
-            <li><img src="assets/images/ellipse.svg" aria-hidden="true">Otimizei o site de acordo com o Google Lighthouse</li>
+            <li><img src="assets/images/ellipse.svg" aria-hidden="true">{{'project_landing.detail1' | translate}}</li>
+            <li><img src="assets/images/ellipse.svg" aria-hidden="true">{{'project_landing.detail2' | translate}}</li>
+            <li><img src="assets/images/ellipse.svg" aria-hidden="true">{{'project_blog.detail3' | translate}}</li>
+            <li><img src="assets/images/ellipse.svg" aria-hidden="true">{{'project_blog.detail4' | translate}}</li>
         </ul>
     </section>
-    <a id="inverted-button" routerLink="/projects">Voltar</a>
+    <a id="inverted-button" routerLink="/projects">{{'project_blog.return' | translate}}</a>
 </main>
 <app-footer></app-footer>

@@ -1,22 +1,22 @@
 <app-header></app-header>
 <main>
     <section id="top-section" class="mx-auto">
-        <img src="assets/images/avatar.webp" alt="Avatar do Danilo Vilhena">
-        <h2>Olá, eu sou o Danilo!</h2>
-        <p>Sou um <span>desenvolvedor web</span> em Fortaleza. <br>Dou enfâse à acessibilidade, usabilidade e a garantir uma boa experiência para os usuários.</p>
+        <img src="assets/images/avatar.webp" alt="{{'contact.avatar_alt' | translate}}">
+        <h2>{{'home.top_h2' | translate}}</h2>
+        <p [innerHTML]="'home.top_p' | translate"></p>
     </section>
     <section id="bottom-section" class="mx-auto">
         <section class="section">
-            <img src="assets/images/rocket.svg" alt="Ilustração de um foguete">
-            <h3>Projetos</h3>
-            <p>Descubra mais detalhes sobre as aplicações que já desenvolvi.</p>
-            <button routerLink="/projects">Ver mais</button>
+            <img src="assets/images/rocket.svg" alt="{{'home.rocket_alt' | translate}}">
+            <h3>{{'home.projects' | translate}}</h3>
+            <p>{{'home.projects_p' | translate}}</p>
+            <button routerLink="/projects">{{'home.button' | translate}}</button>
         </section>
         <section class="section">
-            <img src="assets/images/computer.svg" alt="Ilustração de um computador">
-            <h3>Tecnologias</h3>
-            <p>Conheça as tecnologias que tenho conhecimento e experiência</p>
-            <button routerLink="/tech">Ver mais</button>
+            <img src="assets/images/computer.svg" alt="{{'home.computer_alt' | translate}}">
+            <h3>{{'home.tech' | translate}}</h3>
+            <p>{{'home.tech_p' | translate}}</p>
+            <button routerLink="/tech">{{'home.button' | translate}}</button>
         </section>
     </section>
 </main>
