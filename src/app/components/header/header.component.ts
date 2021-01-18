@@ -15,6 +15,15 @@ export class HeaderComponent implements OnInit {
   constructor(private translate: TranslateService) { }
 
   ngOnInit(): void {
+    if(document.location.pathname == '/en'){
+      this.translate.use('en')
+      localStorage.setItem('vilhena-lang','en')
+      this.language = 'en'
+    } else if(document.location.pathname == '/pt'){
+      this.translate.use('pt')
+      localStorage.setItem('vilhena-lang','pt')
+      this.language = 'pt'
+    }
   }
 
   changeLanguage(): void {
