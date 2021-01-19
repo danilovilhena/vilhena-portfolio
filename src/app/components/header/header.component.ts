@@ -19,10 +19,12 @@ export class HeaderComponent implements OnInit {
       this.translate.use('en')
       localStorage.setItem('vilhena-lang','en')
       this.language = 'en'
+      document.documentElement.lang = 'en'
     } else if(document.location.pathname == '/pt'){
       this.translate.use('pt')
       localStorage.setItem('vilhena-lang','pt')
       this.language = 'pt'
+      document.documentElement.lang = 'pt'
     }
   }
 
@@ -30,5 +32,6 @@ export class HeaderComponent implements OnInit {
     (this.language == 'pt') ? this.language = 'en' : this.language = 'pt'
     this.translate.use(this.language)
     localStorage.setItem('vilhena-lang', this.language)
+    document.documentElement.lang = this.language
   }
 }
