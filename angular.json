@@ -171,7 +171,18 @@
             "browserTarget": "vilhena-portfolio:build:production",
             "serverTarget": "vilhena-portfolio:server:production",
             "routes": [
-              "/"
+              "/",
+              "/en",
+              "/pt",
+              "/404",
+              "/projects",
+              "/projects/blog",
+              "/projects/covid",
+              "/projects/empathy",
+              "/projects/landing",
+              "/projects/movies",
+              "/projects/wal",
+              "/tech"
             ]
           },
           "configurations": {
