@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://danilovilhena.com/</loc>
+    <loc>https://danilovilhena.com</loc>
     <lastmod>2021-01-18</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>https://danilovilhena.com/en/</loc>
+    <loc>https://danilovilhena.com/en</loc>
     <lastmod>2021-01-18</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>https://danilovilhena.com/pt/</loc>
+    <loc>https://danilovilhena.com/pt</loc>
     <lastmod>2021-01-18</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>https://danilovilhena.com/projects/</loc>
+    <loc>https://danilovilhena.com/projects</loc>
     <lastmod>2021-01-18</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://danilovilhena.com/tech/</loc>
+    <loc>https://danilovilhena.com/tech</loc>
     <lastmod>2021-01-18</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://danilovilhena.com/projects/blog/</loc>
+    <loc>https://danilovilhena.com/projects/blog</loc>
     <lastmod>2021-01-18</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>https://danilovilhena.com/projects/covid/</loc>
+    <loc>https://danilovilhena.com/projects/covid</loc>
     <lastmod>2021-01-18</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>https://danilovilhena.com/projects/empathy/</loc>
+    <loc>https://danilovilhena.com/projects/empathy</loc>
     <lastmod>2021-01-18</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>https://danilovilhena.com/projects/landing/</loc>
+    <loc>https://danilovilhena.com/projects/landing</loc>
     <lastmod>2021-01-18</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>https://danilovilhena.com/projects/movies/</loc>
+    <loc>https://danilovilhena.com/projects/movies</loc>
     <lastmod>2021-01-18</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>https://danilovilhena.com/projects/wal/</loc>
+    <loc>https://danilovilhena.com/projects/wal</loc>
     <lastmod>2021-01-18</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>https://danilovilhena.com/contact/</loc>
+    <loc>https://danilovilhena.com/contact</loc>
     <lastmod>2021-01-18</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>https://danilovilhena.com/404/</loc>
+    <loc>https://danilovilhena.com/404</loc>
     <lastmod>2021-01-18</lastmod>
     <changefreq>never</changefreq>
   </url>
